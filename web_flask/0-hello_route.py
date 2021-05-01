@@ -4,7 +4,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/', strict_slashes=false)
+@app.route('/', strict_slashes=False)
 def first_task()
     """ Return Hello HBNB """
     return 'Hello HBNB!'
